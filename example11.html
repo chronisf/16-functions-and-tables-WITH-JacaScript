@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <title>example 11</title>
+        <style>
+            div {
+        width:300px;
+        height:300px;
+        background-color:midnightblue;
+        color:greenyellow;
+            }
+            #p1{padding:60px;}
+        </style>
+    </head>
+<body>
+<h1>function</h1>
+<div onmouseover="f1()" onmouseout="f2()" >
+    <p id="p1"></p>    
+    </div>   
+
+<script>
+function f1() {
+  
+    document.getElementById("p1").innerHTML ="εισήλθατε στην περιοχή";
+}
+    
+function f2() {
+  
+    document.getElementById("p1").innerHTML ="εξήλθατε από την περιοχή";
+}    
+</script>
+    
+</body>
+</html>
